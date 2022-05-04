@@ -14,6 +14,9 @@
 		480A21502821713D00551769 /* Contactos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 480A214E2821713D00551769 /* Contactos.xcdatamodeld */; };
 		480A21522821714200551769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480A21512821714200551769 /* Assets.xcassets */; };
 		480A21552821714200551769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480A21532821714200551769 /* LaunchScreen.storyboard */; };
+		480A215E2821737D00551769 /* EditarContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A215D2821737D00551769 /* EditarContactoViewController.swift */; };
+		487DAD3D2822C4C20027F67F /* ContactoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487DAD3B2822C4C20027F67F /* ContactoTableViewCell.swift */; };
+		487DAD3E2822C4C20027F67F /* ContactoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487DAD3C2822C4C20027F67F /* ContactoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		480A21512821714200551769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		480A21542821714200551769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		480A21562821714200551769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480A215D2821737D00551769 /* EditarContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarContactoViewController.swift; sourceTree = "<group>"; };
+		487DAD3B2822C4C20027F67F /* ContactoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoTableViewCell.swift; sourceTree = "<group>"; };
+		487DAD3C2822C4C20027F67F /* ContactoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				480A21532821714200551769 /* LaunchScreen.storyboard */,
 				480A21562821714200551769 /* Info.plist */,
 				480A214E2821713D00551769 /* Contactos.xcdatamodeld */,
+				480A215D2821737D00551769 /* EditarContactoViewController.swift */,
+				487DAD3B2822C4C20027F67F /* ContactoTableViewCell.swift */,
+				487DAD3C2822C4C20027F67F /* ContactoTableViewCell.xib */,
 			);
 			path = Contactos;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487DAD3E2822C4C20027F67F /* ContactoTableViewCell.xib in Resources */,
 				480A21552821714200551769 /* LaunchScreen.storyboard in Resources */,
 				480A21522821714200551769 /* Assets.xcassets in Resources */,
 				480A214D2821713D00551769 /* Main.storyboard in Resources */,
@@ -142,7 +152,9 @@
 			files = (
 				480A21502821713D00551769 /* Contactos.xcdatamodeld in Sources */,
 				480A214A2821713D00551769 /* ViewController.swift in Sources */,
+				480A215E2821737D00551769 /* EditarContactoViewController.swift in Sources */,
 				480A21462821713D00551769 /* AppDelegate.swift in Sources */,
+				487DAD3D2822C4C20027F67F /* ContactoTableViewCell.swift in Sources */,
 				480A21482821713D00551769 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
